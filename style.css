@@ -81,9 +81,40 @@ p {
     font-size: 20px;
     background-color: grey;
 }
-.card-container {
+.info-container {
+    gap: 40px;
     height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid magenta;
+}
+.card-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
+}
+.image-container {
+    border: 5px solid #3882F6;
+    height: 180px;
+    border-radius: 15px;
+}
+.subtext-image {
+   text-align: center;
+   font-size: 22px;
+}
+.info-text {
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F2937;
 }
 .quote-container {
     height:500px;
