@@ -19,7 +19,7 @@ p {
 }
 .header {
     justify-content: space-between;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .footer {
     justify-content: center;
@@ -33,6 +33,7 @@ p {
     display: flex;
     gap: 15px;
 }
+
 .content {
     flex: 1;
 }
@@ -40,7 +41,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 30px;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     background-color: #1F2937;
     color: white;
     padding-bottom: 60px;
@@ -51,8 +52,8 @@ p {
     flex-direction: column;
     height: 300px;
     flex-basis: 400px;
-    border: 1px solid white;
-    gap: 6px;
+    /* border: 1px solid white; */
+    gap: 8px;
 }
 .main-text {
     font-weight: 700;
@@ -67,9 +68,10 @@ p {
     background-color: #3882F6;
     color: white;
     align-self: flex-start;
-    padding: 12px;
+    font-size: 17px;
     border-radius: 10px;
-    padding: 8px 15px;
+    padding: 8px 23px;
+    text-decoration: none;
 }
 .image {
     display: flex;
@@ -77,7 +79,7 @@ p {
     align-items: center;
     height: 300px;
     flex-basis: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 20px;
     background-color: grey;
 }
@@ -88,7 +90,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid magenta;
+    /* border: 1px solid magenta; */
 }
 .card-container {
     display: flex;
@@ -96,7 +98,7 @@ p {
     flex-wrap: wrap;
 }
 .card {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -118,7 +120,7 @@ p {
 }
 .quote-section {
     height:500px;
-    border: 1px solid paleturquoise;
+    /* border: 1px solid paleturquoise; */
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -127,7 +129,7 @@ p {
 .quote-container {
     height: 200px;
     width: 770px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
 }
@@ -145,8 +147,37 @@ p {
 
 .sign-up-section {
     height: 500px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sign-up-container {
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    height: 150px;
+    flex-basis: 1000px;
+    border-radius: 15px;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+.description {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+.sign-up-button {
+    color: white;
+    border: 3px solid white;
+    padding: 5px 22px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    text-decoration: none;
+
 }
