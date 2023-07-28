@@ -36,7 +36,7 @@ p {
 .content {
     flex: 1;
 }
-.hero {
+.hero-section {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -81,7 +81,7 @@ p {
     font-size: 20px;
     background-color: grey;
 }
-.info-container {
+.info-section {
     gap: 40px;
     height:500px;
     display: flex;
@@ -116,11 +116,37 @@ p {
     font-size: 36px;
     color: #1F2937;
 }
-.quote-container {
+.quote-section {
     height:500px;
     border: 1px solid paleturquoise;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.sign-up-container {
+.quote-container {
+    height: 200px;
+    width: 770px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.author {
+    align-self: flex-end;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sign-up-section {
     height: 500px;
     border: 1px solid brown;
+}
+.sign-up-container {
+    
 }
